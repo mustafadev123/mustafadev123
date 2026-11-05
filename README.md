@@ -75,7 +75,7 @@ Production Scale:      16M+ users, 10K+ daily ops, sub-10s latency systems
 
 ---
 
-###  Distributed Key-Value Store
+###  [Distributed Key-Value Store](https://github.com/mustafadev123/Raft)
 > Fault-tolerant distributed KV store implementing Raft consensus algorithm
 
 **Tech**: Go • Raft • gRPC  
