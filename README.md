@@ -62,6 +62,21 @@ Production Scale:      16M+ users, 10K+ daily ops, sub-10s latency systems
 
 ##  Featured Projects
 
+### [TriageX — Emergency Department Surge Coordination](https://github.com/mustafadev123/TriageX)
+> Models emergency department surges across five Atlanta hospitals and connects forecasts to human-approved staffing decisions.
+
+**Awards**: 1st Place, Healthcare Track • Winner, Best Use of Entire (Emory Hacks 2026)  
+**Tech**: Python • FastAPI • React • WebSockets • Gemini • Chert FaceTime • LiveKit • Tiger Data  
+**Impact**: A three-staff intervention reduced simulated ambulance handoff delays from 25.50 to 16.25 aggregate ambulance-hours (36%).  
+**Demo**: [Devpost](https://devpost.com/software/triagex-qk4ziw)
+
+- Built a deterministic simulator that compares staffing interventions against a baseline using the same patient arrivals.
+- Integrated live FaceTime video with Gemini to read fictional staff cards and validate them against a roster in FastAPI.
+- Stored versioned hospital metrics in TimescaleDB and linked Claude Code sessions to Git commits using Entire checkpoints.
+
+---
+
+
 ###  [Multi-Agent Auto-Analytics System](https://github.com/sproj-org/P13-ContinuumAI)
 > AI-driven analytics platform enabling natural language querying and automated insight generation, functioning as an intelligent BI system with decision-support capabilities
 
@@ -87,6 +102,17 @@ Production Scale:      16M+ users, 10K+ daily ops, sub-10s latency systems
 
 ---
 
+### [GuideWing — Accessibility Navigation Prototype](https://github.com/mustafadev123/Guide_wing)
+> Simulated campus companion for blind and low-vision users, with spoken obstacle warnings and gesture-triggered requests for human assistance.
+
+**Award**: Winner, Cox Track at Hacklanta 2026  
+**Tech**: Python • FastAPI • YOLO • MediaPipe • OpenCV • WebSockets • SQLite
+
+- Processed live phone-camera frames to detect obstacles and recognize an open-palm help gesture.
+- Built a FastAPI workflow that tracks help requests from dispatch through responder acknowledgment and resolution, with spoken updates for the user.
+
+---
+
 ###  [IntelliLearn — EdTech Platform](https://intellilearn.netlify.app/)
 > Personalized learning platform with RAG-based guidance and adaptive quizzes
 
@@ -97,6 +123,8 @@ Production Scale:      16M+ users, 10K+ daily ops, sub-10s latency systems
 - End-to-end deployment on AWS infrastructure
 
 ---
+
+
 
 ###  AI Simulated Patient System
 > LLM-based diagnostic interaction system for medical training
@@ -125,6 +153,7 @@ Production Scale:      16M+ users, 10K+ daily ops, sub-10s latency systems
 ##  Additional Projects
 
 ### [Persona-Conditioned Clinical Reasoning](https://github.com/hashirsalman/simulating_physicians)
+paper accepted in IEEE 2026
 **Evaluation pipeline for analyzing LLM diagnostic reasoning under persona-based contextual variations**  
 Tech: Python • LLM APIs • Prompt Engineering • Data Analysis  
 
